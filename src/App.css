@@ -1,0 +1,117 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  font-family: "IBM";
+  color: rgb(131, 47, 47);
+
+}
+h1 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 80px;
+  font-weight: 200;
+  color: crimson;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: rgb(83, 80, 70);
+  background-image: url(./Images/1366x768-clouds.jpg);
+}
+.app {
+  padding: 10px;
+  background-color: #c7c7e8aa;
+  height: 100vh;
+}
+.Link-style {
+  display: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-card {
+  height: calc(100% - 115px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 60%;
+  height: fit-content;
+  margin: 20px;
+  padding: 10px;
+  background: #dad2ff;
+  border-radius: 20px;
+  box-shadow: 0 6px 10px 5px #4b5a95;
+}
+.header,
+.card-header,
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 882px) {
+  .card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card {
+    width: 90%;
+  }
+  .image img {
+    width: 190px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 505px) {
+  .card {
+    margin: 0px;
+  }
+  .image {
+    display: none;
+  }
+  .content {
+    align-self: center;
+    margin-inline: auto;
+  }
+}
+
+@font-face {
+  font-family: IBM;
+  src: url(../public/IBMFont/IBMPlexSansArabic-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: IBM;
+  src: url(../public/IBMFont/IBMPlexSansArabic-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: IBM;
+  src: url(../public/IBMFont/IBMPlexSansArabic-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: IBM;
+  src: url(../public/IBMFont/IBMPlexSansArabic-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: IBM;
+  src: url(../public/IBMFont/IBMPlexSansArabic-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: IBM;
+  src: url(../public/IBMFont/IBMPlexSansArabic-ExtraLight.ttf);
+  font-weight: 200;
+}
