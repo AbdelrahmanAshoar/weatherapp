@@ -3,20 +3,24 @@
   "Weather": "الطقس",
   "Min": "الصغري",
   "Max": "الكبري",
+
   "clear sky": "سماء صافية",
   "few clouds": "غيوم قليلة",
-  "scattered clouds": "غيوم متفرقة",
   "broken clouds": "غيوم متقطعة",
+  "scattered clouds": "غيوم متفرقة",
+  "overcast clouds": "غيوم متراكمة",
+  "thunderstorm": "عاصفة رعدية",
   "shower rain": "زخات مطر",
   "rain": "مطر",
-  "thunderstorm": "عاصفة رعدية",
   "snow": "ثلج",
   "mist": "ضباب",
+
   "Pressure": "الضغط",
   "Humidity": "الرطوبة",
   "Speed": "السرعة",
   "Degree": "الدرجة",
   "Wind": "الرياح",
+
 
   "Cairo": " القاهرة",  
   "Giza": " الجيزة",  

@@ -218,9 +218,9 @@ export default function App() {
                         {t("Humidity")} : {weather.main.humidity}
                       </Box>
                     </Stack>
-                    <Typography sx={{ textDecoration: "underline", pt: 2 }}>
+                    <div style={{ textDecoration: "underline", pt: 2 }}>
                       {t("Wind")}
-                    </Typography>
+                    </div>
                     <Stack direction={{ xs: "row" }} gap={2}>
                       <Box>
                         {t("Speed")} : {weather.wind.speed}
