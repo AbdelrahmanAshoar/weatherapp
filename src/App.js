@@ -237,7 +237,7 @@ export default function App() {
                   color="primary"
                   sx={{ mt: 2 }}
                 >
-                  {expanded ? "See Less" : "See More"}
+                  {expanded ? t("See Less") : t("See More")}
                 </Button>
               </Box>
             </div>
